@@ -1,14 +1,20 @@
 # Privacidade — Controle 3D Valhalla
 
-Atualizado em 21 de outubro de 2026.
+Atualizado em 22 de outubro de 2026.
 
 O Controle 3D Valhalla é um aplicativo para Windows e Android que organiza estoque, vendas, compras, contas e eventos de uma pequena loja.
 
 ## Dados utilizados
 
-Ao conectar o Google, o aplicativo usa o e-mail verificado da conta para identificar o autor dos lançamentos. Solicita a permissão `drive.file`, limitada aos arquivos que o usuário autoriza para este aplicativo. Não solicita acesso geral a todas as planilhas da conta.
+Ao conectar o Google, o aplicativo usa o e-mail verificado da conta para identificar o autor dos lançamentos. Solicita a permissão `drive.file`, limitada aos arquivos que o usuário autoriza ou cria com este aplicativo. Não solicita acesso geral a todas as planilhas ou a todo o Drive.
 
 O aplicativo consulta e acrescenta registros na planilha escolhida, incluindo produtos, quantidades, valores, pagamentos, datas e o e-mail do autor. Esses registros ficam na conta Google do proprietário da planilha e são acessíveis às pessoas com quem ele a compartilha. Cada loja pode usar uma planilha separada.
+
+## Fotos do catálogo
+
+Cada loja pode configurar uma pasta privada do Google Drive. O aplicativo guarda na planilha a identificação e o nome dessa pasta e a referência das fotos associadas aos produtos. As imagens ficam no Drive. O seletor Google pode enviar uma foto escolhida pelo usuário para a pasta configurada. O app baixa imagens autorizadas e reduz sua apresentação para o catálogo, mantendo cópias temporárias em memória enquanto está aberto.
+
+O app não torna imagens públicas e não altera o compartilhamento. Cada participante precisa ter acesso aos arquivos e pode precisar autorizar as fotos pelo seletor do Google. Remover a associação de uma foto no produto não exclui o arquivo original do Drive.
 
 ## Armazenamento no aparelho
 
@@ -18,13 +24,13 @@ Lançamentos com confirmação pendente podem ser guardados no armazenamento pri
 
 ## Serviços externos
 
-Google autentica a conta, mostra o seletor de arquivos e armazena os dados da planilha. GitHub distribui atualizações e recebe as solicitações de consulta e download. Esses serviços processam as conexões conforme suas próprias políticas. Dados da loja e credenciais Google não são enviados ao repositório GitHub pelo aplicativo.
+Google autentica a conta, mostra o seletor de arquivos e armazena a planilha e as fotos. GitHub distribui atualizações e recebe as solicitações de consulta e download. Esses serviços processam as conexões conforme suas próprias políticas. Dados da loja, fotos e credenciais Google não são enviados ao repositório GitHub pelo aplicativo.
 
 O aplicativo não implementa publicidade, venda de dados ou envio automático de registros da loja ao desenvolvedor.
 
 ## Controle e exclusão
 
-O proprietário controla o compartilhamento da planilha pelo Google Drive. Cada usuário pode revogar a autorização nas conexões de terceiros da sua conta Google e desconectar a loja no aplicativo. A revogação interrompe novos acessos, mas não apaga os registros já salvos.
+O proprietário controla o compartilhamento da planilha e da pasta de fotos pelo Google Drive. Cada usuário pode revogar a autorização nas conexões de terceiros da sua conta Google e desconectar a loja no aplicativo. A revogação interrompe novos acessos, mas não apaga os registros já salvos.
 
 Excluir uma compra ou conta pelo aplicativo mantém o histórico da correção na planilha. Para remover definitivamente os dados, o proprietário deve excluir os arquivos correspondentes no Google Drive e esvaziar a lixeira quando desejar. Dados e backups locais devem ser removidos separadamente pelo usuário.
 
