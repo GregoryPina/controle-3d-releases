@@ -19,6 +19,12 @@ Compartilhe a planilha com os participantes como editores pelo Google Drive. Cad
 
 Na versão 0.6.0, a loja fica salva no aparelho e os dados são consultados periodicamente enquanto o app está aberto. Gravações precisam de internet. Falhas e conflitos são mostrados para conferência; registros rejeitados permanecem no histórico, sem afetar os totais. Atualize todos os aparelhos da mesma loja antes de usar as novas correções compartilhadas.
 
+## Catálogo com fotos e categorias
+
+A partir da versão 0.7.0, abra **Peças prontas → Pasta de fotos**, informe o link da pasta da loja e confirme no seletor Google. A configuração fica na planilha, sem pasta fixa no aplicativo. Compartilhe a pasta com os participantes como editores. Cada conta pode precisar autorizar as fotos individuais pelo botão **Autorizar foto**.
+
+Use **Foto** no cartão do produto e preencha **Categoria** em **Editar**. O catálogo permite escolher o produto ao vender. As imagens permanecem privadas no Drive; a planilha guarda apenas referências. Consulte o LEIA-ME da release para formatos, limites e instruções.
+
 ## Conteúdo deste repositório
 
 Este é o canal de distribuição, não o repositório do código-fonte. Os arquivos “Source code” gerados automaticamente pelo GitHub contêm a documentação daqui. Não há registros de estoque, vendas, contas, planilhas particulares ou credenciais de usuários neste repositório.
